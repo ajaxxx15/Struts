@@ -1,0 +1,18 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="p1" extends="struts-default">
+		
+		<action name="itema" class="p1.ItemAction1">
+			<result name="item">itemb.jsp</result>
+			<result name="input">/itema.jsp</result>
+		</action>
+		
+		<action name="itemb" class="p1.ItemAction2">
+			<result name="s">disp.jsp</result>
+			<result name="input">/itemb.jsp</result>
+		</action>
+	</package>
+</struts>
