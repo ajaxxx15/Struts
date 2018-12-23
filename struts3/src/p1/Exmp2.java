@@ -19,7 +19,7 @@ public class Exmp2 implements Interceptor {
 
 	@Override
 	public String intercept(ActionInvocation a1) throws Exception {
-		String temp=a1.invoke();		
+		String temp = a1.invoke();
 		return temp;
 	}
 

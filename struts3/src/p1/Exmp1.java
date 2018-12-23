@@ -8,18 +8,18 @@ public class Exmp1 implements Interceptor {
 	@Override
 	public void destroy() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void init() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public String intercept(ActionInvocation a1) throws Exception {
-		String temp=a1.invoke();		
+		String temp = a1.invoke();
 		return temp;
 	}
 

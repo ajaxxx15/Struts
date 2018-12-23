@@ -19,11 +19,10 @@ public class ItemAction2 implements SessionAware {
 	@Override
 	public void setSession(Map m) {
 
-		this.m=m;
+		this.m = m;
 	}
-	 
-	public String execute()
-	{
+
+	public String execute() {
 		m.put("bread", bread);
 		return "s";
 	}

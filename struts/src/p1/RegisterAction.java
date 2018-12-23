@@ -2,6 +2,10 @@ package p1;
 
 import com.opensymphony.xwork2.ActionSupport;
 
+/**
+ * Struts with Single Action Class
+ *
+ */
 public class RegisterAction extends ActionSupport {
 	private String un;
 	private String pwd;
@@ -33,7 +37,7 @@ public class RegisterAction extends ActionSupport {
 	}
 
 	public String execute() {
-		System.out.println(un+" "+pwd);
+		System.out.println(un + " " + pwd);
 		return "s";
 	}
 }

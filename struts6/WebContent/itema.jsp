@@ -8,10 +8,10 @@
 <title>Choclate</title>
 </head>
 <body>
-<st:form action="itema">
-<st:textfield label="No. of choclates" name="choc"></st:textfield>
-<st:submit value="Proceed"></st:submit>
-</st:form>
+	<st:form action="itema">
+		<st:textfield label="No. of choclates" name="choc"></st:textfield>
+		<st:submit value="Proceed"></st:submit>
+	</st:form>
 
 </body>
 </html>

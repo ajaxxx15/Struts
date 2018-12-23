@@ -28,7 +28,7 @@ public class Exmp2 implements Interceptor, StrutsStatics {
 		ActionContext ac = ai.getInvocationContext();
 		HttpServletRequest x = (HttpServletRequest) ac.get(HTTP_REQUEST);
 		HttpSession session = x.getSession();
-		int a=200;
+		int a = 200;
 		session.setAttribute("value2", a);
 		String temp = ai.invoke();
 		return temp;

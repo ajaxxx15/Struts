@@ -2,10 +2,14 @@ package p1;
 
 import com.opensymphony.xwork2.ActionSupport;
 
+/**
+ * Struts with Resource Bundle
+ *
+ */
 public class RegisterAction extends ActionSupport {
 	private String un;
 	private String pwd;
-		
+
 	public String getUn() {
 		return un;
 	}
@@ -22,8 +26,7 @@ public class RegisterAction extends ActionSupport {
 		this.pwd = pwd;
 	}
 
-	public String execute()
-	{
+	public String execute() {
 		System.out.println(getText("abc"));
 		System.out.println(getText("abc"));
 		System.out.println(getText("abc"));
@@ -32,7 +35,7 @@ public class RegisterAction extends ActionSupport {
 		System.out.println(getText("abc"));
 		System.out.println(getText("abc"));
 		return "s";
-		
+
 	}
 
 }

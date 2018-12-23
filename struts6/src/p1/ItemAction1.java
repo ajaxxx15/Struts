@@ -4,6 +4,10 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+/**
+ * Struts with Session
+ *
+ */
 public class ItemAction1 implements SessionAware {
 	private String choc;
 	Map m;

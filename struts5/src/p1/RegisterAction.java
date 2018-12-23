@@ -5,6 +5,10 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.struts2.interceptor.ServletRequestAware;
 
+/**
+ * Struts with Session
+ *
+ */
 public class RegisterAction implements ServletRequestAware {
 	private String un;
 	private String pwd;
